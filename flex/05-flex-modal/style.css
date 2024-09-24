@@ -60,10 +60,47 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin-right: 3px;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.modal{
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon{
+  flex-shrink: 0;
+  margin: 8px;
+}
+
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+}
+.text{
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header{
+  font-weight: bold;
+  font-size: large;
 }
